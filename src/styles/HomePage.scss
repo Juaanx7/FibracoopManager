@@ -1,0 +1,15 @@
+@import './colors';
+
+.home-page {
+  background-color: $color-background;
+  color: $color-dark;
+}
+
+.home-page-header {
+  color: $color-primary;
+}
+
+.home-page-footer {
+  background-color: $color-secondary;
+  color: #fff;
+}

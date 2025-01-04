@@ -1,0 +1,41 @@
+@import './colors';
+
+body {
+  background-color: $color-background;
+  color: $color-dark;
+}
+
+h1, h2, h3 {
+  color: $color-dark;
+}
+
+button {
+  background-color: $color-primary;
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-secondary;
+  }
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-secondary;
+  }
+}
+
+input, select, textarea {
+  background-color: $color-grey;
+  border: 1px solid $color-secondary;
+  color: $color-dark;
+
+  &:focus {
+    border-color: $color-primary;
+  }
+}
