@@ -1,14 +1,14 @@
 import React from 'react';
-import './styles/global.scss';
-import Header from './components/Header';
+import './styles/Global.scss';
 import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
+import Navbar from './components/Navbar';
+import Dashboard from './pages/Dashboard';
 
 const App = () => {
   return (
     <>
-      <Header />
-      <HomePage />
+      <Navbar />
+      <Dashboard />
       <Footer />
     </>
   );

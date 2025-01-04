@@ -1,0 +1,30 @@
+// src/styles/Navbar.scss
+
+@use 'Colors' as *;
+
+.navbar {
+  background-color: $color-primary;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.navbar__logo {
+  font-size: 1.5rem;
+}
+
+.navbar__menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar__menu li a {
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar__menu li a:hover {
+  color: $color-secondary;
+}

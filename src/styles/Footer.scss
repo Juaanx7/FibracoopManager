@@ -1,9 +1,21 @@
-@import './colors';
+// src/styles/Footer.scss
+
+@use 'Colors' as *;
 
 .footer {
-  background-color: $color-primary;
-  color: $color-background;
+  background-color: $color-primary;  
+  color: white;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: $color-secondary;
 }
